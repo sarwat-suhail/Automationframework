@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="101" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+      <class name="com.suhail.mavenproject.AppiumTest">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@d8355a8]" name="closeapp" duration-ms="2" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="opennativeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@d8355a8]" name="opennativeapp" duration-ms="1" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opennativeapp -->
+      </class> <!-- com.suhail.mavenproject.AppiumTest -->
+      <class name="com.suhail.mavenproject.RestAPITest">
+        <test-method status="PASS" signature="EndApi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@46d56d67]" name="EndApi" duration-ms="2" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndApi -->
+        <test-method status="PASS" signature="invokeapi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@46d56d67]" name="invokeapi" duration-ms="2" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeapi -->
+      </class> <!-- com.suhail.mavenproject.RestAPITest -->
+      <class name="com.suhail.mavenproject.JavaTest">
+        <test-method status="PASS" signature="Collection_Api(java.lang.String)[pri:0, instance:com.suhail.mavenproject.JavaTest@59fa1d9b]" name="Collection_Api" duration-ms="2" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reflectionkey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Collection_Api -->
+      </class> <!-- com.suhail.mavenproject.JavaTest -->
+      <class name="com.suhail.mavenproject.SeleniumTest">
+        <test-method status="PASS" signature="browseropen()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@14acaea5]" name="browseropen" duration-ms="20" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseropen -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@14acaea5]" name="signin" duration-ms="5" started-at="2019-01-23T08:40:42Z" finished-at="2019-01-23T08:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- com.suhail.mavenproject.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
