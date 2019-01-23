@@ -9,9 +9,9 @@ public class JavaTest {
 
 	@Parameters("CollectionKey")
 	@Test()
-	public void Collection_Api(String keyname) {
+	public void Collection_Api(String CollectionKey) {
 		
-		System.out.println("Collection_Api with "+keyname);
+		System.out.println("Collection_Api with "+CollectionKey);
 		
 	}
 	
