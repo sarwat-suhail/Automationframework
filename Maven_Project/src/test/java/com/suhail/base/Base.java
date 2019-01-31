@@ -32,7 +32,7 @@ public SoftAssert softAssert=null;
 		
 	testName=method.getName();
 		
-	rep=ExtentManager.getInstance(System.getProperty("user.dir")+"\\Extent Reports");
+	rep=ExtentManager.getInstance(System.getProperty("user.dir")+"\\Extent Reports\\");
 	
 	test=rep.createTest(testName);
 		
