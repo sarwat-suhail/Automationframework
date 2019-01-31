@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="75" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+  <suite name="Suite" duration-ms="196" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="75" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+    <test name="Test" duration-ms="196" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
       <class name="com.suhail.mavenproject.AppiumTest">
-        <test-method status="PASS" signature="opennativeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@4501b7af]" name="opennativeapp" duration-ms="0" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opennativeapp -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@4501b7af]" name="closeapp" duration-ms="0" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@1bce4f0a]" name="closeapp" duration-ms="1" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="opennativeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@1bce4f0a]" name="opennativeapp" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opennativeapp -->
       </class> <!-- com.suhail.mavenproject.AppiumTest -->
       <class name="com.suhail.mavenproject.RestAPITest">
-        <test-method status="PASS" signature="EndApi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@28d25987]" name="EndApi" duration-ms="0" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+        <test-method status="PASS" signature="EndApi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@3bfdc050]" name="EndApi" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndApi -->
-        <test-method status="PASS" signature="invokeapi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@28d25987]" name="invokeapi" duration-ms="1" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+        <test-method status="PASS" signature="invokeapi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@3bfdc050]" name="invokeapi" duration-ms="1" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeapi -->
       </class> <!-- com.suhail.mavenproject.RestAPITest -->
       <class name="com.suhail.mavenproject.JavaTest">
-        <test-method status="PASS" signature="Collection_Api(java.lang.String)[pri:0, instance:com.suhail.mavenproject.JavaTest@523884b2]" name="Collection_Api" duration-ms="0" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+        <test-method status="PASS" signature="Collection_Api(java.lang.String)[pri:0, instance:com.suhail.mavenproject.JavaTest@5e3a8624]" name="Collection_Api" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
           <params>
             <param index="0">
               <value>
@@ -40,11 +40,11 @@
         </test-method> <!-- Collection_Api -->
       </class> <!-- com.suhail.mavenproject.JavaTest -->
       <class name="com.suhail.mavenproject.SeleniumTest">
-        <test-method status="PASS" signature="browseropen()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@59fa1d9b]" name="browseropen" duration-ms="8" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+        <test-method status="PASS" signature="browseropen()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@42d80b78]" name="browseropen" duration-ms="21" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseropen -->
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@59fa1d9b]" name="signin" duration-ms="0" started-at="2019-01-28T16:55:37 IST" finished-at="2019-01-28T16:55:37 IST">
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@42d80b78]" name="signin" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
