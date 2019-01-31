@@ -21,7 +21,7 @@ public class ExtentManager {
     		
     		// directory of the report folder
     		new File(reportPath+folderName+"//screenshots").mkdirs();
-    		reportPath=reportPath+folderName+"//";
+    		reportPath=reportPath+folderName+"\\";
     		screenshotFolderPath=reportPath+"screenshots//";
     		System.out.println(reportPath+fileName);
     		createInstance(reportPath+fileName);

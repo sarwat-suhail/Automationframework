@@ -11,7 +11,7 @@ import com.suhail.base.Base;
 public class AppiumTest extends Base{
 
 	ExtentReports rep;
-	ExtentTest test;
+	//ExtentTest test;
 	
 	
 	@Test
@@ -21,9 +21,10 @@ public class AppiumTest extends Base{
 		
 		System.out.println("opennativeapp");
 				softAssert=new SoftAssert();
+				test.log(Status.FAIL, "opennativeapp test failed ");
 				softAssert.fail();
-				
-		test.log(Status.FAIL, "opennativeapp test failed ");
+				softAssert.assertAll();
+		
 		
 		
 	}
@@ -32,6 +33,7 @@ public class AppiumTest extends Base{
 	public void closeapp() {
 		
 		System.out.println("closeapp");
+		test.log(Status.INFO, "Test Passed");
 		
 	}
 	

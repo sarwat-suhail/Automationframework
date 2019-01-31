@@ -2,6 +2,7 @@ package com.suhail.base;
 
 import java.lang.reflect.Method;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -40,7 +41,15 @@ public SoftAssert softAssert=null;
 		
 	}
 	
-	@AfterTest
+	@AfterMethod
+	public void quit() {
+		
+		
+		if(rep!=null)
+			rep.flush();
+	}
+	
+	//@AfterTest
 	public void end() {
 		
 		if(softAssert!=null)

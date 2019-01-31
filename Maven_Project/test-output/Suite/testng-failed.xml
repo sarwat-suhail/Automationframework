@@ -4,11 +4,14 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="CollectionKey" value="reflectionkey"/>
     <classes>
-      <class name="com.suhail.mavenproject.JavaTest">
+      <class name="com.suhail.mavenproject.AppiumTest">
         <methods>
-          <include name="Collection_Api"/>
+          <include name="opennativeapp"/>
+          <include name="end"/>
+          <include name="init"/>
+          <include name="initTest"/>
         </methods>
-      </class> <!-- com.suhail.mavenproject.JavaTest -->
+      </class> <!-- com.suhail.mavenproject.AppiumTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

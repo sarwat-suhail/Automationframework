@@ -1,54 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="196" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+  <suite name="Default suite" duration-ms="797" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="196" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+    <test name="Default test" duration-ms="797" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:12Z">
       <class name="com.suhail.mavenproject.AppiumTest">
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@1bce4f0a]" name="closeapp" duration-ms="1" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="init" is-config="true" duration-ms="15" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeapp -->
-        <test-method status="PASS" signature="opennativeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@1bce4f0a]" name="opennativeapp" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opennativeapp -->
-      </class> <!-- com.suhail.mavenproject.AppiumTest -->
-      <class name="com.suhail.mavenproject.RestAPITest">
-        <test-method status="PASS" signature="EndApi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@3bfdc050]" name="EndApi" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EndApi -->
-        <test-method status="PASS" signature="invokeapi()[pri:0, instance:com.suhail.mavenproject.RestAPITest@3bfdc050]" name="invokeapi" duration-ms="1" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeapi -->
-      </class> <!-- com.suhail.mavenproject.RestAPITest -->
-      <class name="com.suhail.mavenproject.JavaTest">
-        <test-method status="PASS" signature="Collection_Api(java.lang.String)[pri:0, instance:com.suhail.mavenproject.JavaTest@5e3a8624]" name="Collection_Api" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest(java.lang.reflect.Method)[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="initTest" is-config="true" duration-ms="235" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[reflectionkey]]>
+                <![CDATA[public void com.suhail.mavenproject.AppiumTest.closeapp()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Collection_Api -->
-      </class> <!-- com.suhail.mavenproject.JavaTest -->
-      <class name="com.suhail.mavenproject.SeleniumTest">
-        <test-method status="PASS" signature="browseropen()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@42d80b78]" name="browseropen" duration-ms="21" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="closeapp" duration-ms="32" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browseropen -->
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.suhail.mavenproject.SeleniumTest@42d80b78]" name="signin" duration-ms="0" started-at="2019-01-31T13:29:24 IST" finished-at="2019-01-31T13:29:24 IST">
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="quit" is-config="true" duration-ms="390" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signin -->
-      </class> <!-- com.suhail.mavenproject.SeleniumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- quit -->
+        <test-method status="FAIL" signature="opennativeapp()[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="opennativeapp" duration-ms="0" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:11Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+null
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.suhail.mavenproject.AppiumTest.opennativeapp(AppiumTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opennativeapp -->
+        <test-method status="PASS" signature="initTest(java.lang.reflect.Method)[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="initTest" is-config="true" duration-ms="0" started-at="2019-01-31T12:44:11Z" finished-at="2019-01-31T12:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.suhail.mavenproject.AppiumTest.opennativeapp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.suhail.mavenproject.AppiumTest@91161c7]" name="quit" is-config="true" duration-ms="93" started-at="2019-01-31T12:44:12Z" finished-at="2019-01-31T12:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.suhail.mavenproject.AppiumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
